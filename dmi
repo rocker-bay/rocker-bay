@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Defenders Ministry International</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <style>
+    :root {
+      --primary-purple: #5e4b8b;
+      --black: #000;
+      --white: #fff;
+      --light-gray: #f8f8f8;
+      --dark-gray: #222;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: var(--dark-gray);
+      background-color: var(--white);
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      background: var(--black);
+      color: var(--white);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      flex-wrap: wrap;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+    .nav-center a {
+      margin: 0 15px;
+      font-weight: 500;
+      color: var(--white);
+    }
+    .donate-btn {
+      background: var(--primary-purple);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('images/about-pattern.png') repeat center center;
+      background-color: #1b1b2a;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 40px;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      color: var(--primary-purple);
+      font-size: 30px;
+    }
+    .beliefs {
+      column-count: 2;
+      column-gap: 40px;
+      font-size: 18px;
+    }
+    .mission {
+      text-align: center;
+    }
+    .mission-title {
+      font-weight: 600;
+      text-decoration: underline;
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
+    ul {
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+    }
+    .logos {
+      text-align: center;
+      margin: 60px auto;
+    }
+    .logos img {
+      height: 80px;
+      margin: 0 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    footer {
+      background: var(--black);
+      color: white;
+      padding: 60px 20px;
+      width: 100%;
+    }
+    .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+    @media(max-width: 992px) {
+      .beliefs { column-count: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="images/logo.png" alt="Defenders Ministry Logo" style="height: 60px;">
+    <div>
+      DEFENDERS <br> MINISTRY INTERNATIONAL
+    </div>
+  </div>
+
+  <div class="nav-center">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="#our-team.html">Our Team</a>
+    <a href="ourprograms.html">Our Programs</a>
+    <a href="#">Events</a>
+    <a href="#">Visit Us</a>
+  </div>
+
+  <a href="#" class="donate-btn">DONATE</a>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  About Us
+</section>
+
+<!-- WHAT WE BELIEVE -->
+<section>
+  <h2 class="section-title">Join Us in Making a Difference to the World</h2>
+  <div class="beliefs">
+    <p>We believe in God the Father, the Creator of heaven and earth. We believe God made us for His purpose, to live in relationship with Him. He richly provides for our every need and sustains all life by His word.</p>
+
+    <p>We believe in Jesus Christ, the Son of God, who was born of the Virgin Mary, suffered, died, was buried, and rose again on the third day. He sits at the right hand of God and reigns with authority over all creation.</p>
+
+    <p>We believe that salvation is by grace alone, through faith alone, in Christ alone — not by works but by His sacrifice, death, and resurrection. By His blood, we are forgiven, redeemed, and made righteous.</p>
+
+    <p>We believe in the Holy Spirit, who calls, enlightens, sanctifies, and preserves us in the true faith. The Holy Spirit empowers us for ministry and unites us as one body in Christ.</p>
+  </div>
+</section>
+
+<!-- MISSION SECTION -->
+<section class="mission">
+  <div class="mission-title">OUR MISSION</div>
+  <p>To raise believers who boldly defend the truth, live intentionally, and impact nations through the gospel of Jesus Christ.</p>
+
+  <ul>
+    <li>We believe in the authority of God’s Word.</li>
+    <li>We believe Jesus Christ is Savior and Lord.</li>
+    <li>We believe in the power of the Holy Spirit.</li>
+    <li>We believe in equipping disciples to impact the world.</li>
+    <li>We believe in building strong families and godly communities.</li>
+  </ul>
+</section>
+
+<!-- AFFILIATION (OPTIONAL) -->
+<section class="logos">
+  <img src="images/partner1.png" alt="Partner 1">
+  <img src="images/partner2.png" alt="Partner 2">
+  <p><a href="#">Our Ministry Affiliations</a></p>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <img src="images/gallery1.jpg" alt="">
+  <img src="images/gallery2.jpg" alt="">
+  <img src="images/gallery3.jpg" alt="">
+  <img src="images/gallery4.jpg" alt="">
+  <img src="images/gallery5.jpg" alt="">
+  <img src="images/gallery6.jpg" alt="">
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-columns">
+    <div>
+      <h3>Contact</h3>
+      <p>info@defendersministry.org<br>(+123) 456 789 000</p>
+      <p>123 Kingdom Avenue<br>Your City, Country</p>
+    </div>
+    <div>
+      <h3>Programs</h3>
+      <p>Prayer Services<br>Bible Study<br>Youth Ministry<br>Community Outreach</p>
+    </div>
+    <div>
+      <h3>Media</h3>
+      <p>Videos<br>Teachings<br>Sermons</p>
+    </div>
+    <div>
+      <h3>Other</h3>
+      <p>Give Online<br>Volunteer<br>Submit Prayer Request</p>
+    </div>
+  </div>
+  <p style="text-align:center; margin-top:30px;">&copy; 2025 Defenders Ministry International</p>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
